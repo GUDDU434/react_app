@@ -29,7 +29,7 @@ const Button=()=>{
 return <>
 <div style={div_style}>
 <h1 style={{textAlign:"center",  backgroundColor:"green" }}>Increase, Decrease And Double</h1>
-<h1 style={{textAlign:"center"}}>{count}</h1>
+<h1 style={{textAlign:"center", color:"green"}}>{count}</h1>
 <div style={{display:"flex", justifyContent:"space-evenly"}}>
 <button style={{backgroundColor:"yellow", pad}} onClick={()=>handleadd(1)}>Increase</button>
 <button style={{backgroundColor:"red", color:"white"}} onClick={()=>handledec(-1)}>Decrease</button>

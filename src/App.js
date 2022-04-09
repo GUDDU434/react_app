@@ -11,11 +11,12 @@ import './App.css';
 // import {Download} from "./Day-1/Download"
 
 // import Input from './Day-2/input';
-// import Button from './Day-2/Button';
+import Button from './Sprint-1/Day-2/Button';
 // // import List from './Day-2/List';
 // import Employee from './Day-2/EmployeeDetails';
-import Todo from './Sprint-1/Day-2/Todo';
-import TodoList from './Sprint-1/day-3/TodoList';
+// import Todo from './Sprint-1/Day-2/Todo';
+import TodoList from './Sprint-1/day-3/Assignment/TodoList';
+import GiftCard from "./Sprint-1/day-3/Assignment/Gift_card"
 
 
 function App() {
@@ -46,12 +47,14 @@ function App() {
 
     {/* <Employee/> */}
     {/* todo list assignment***************** start*/}
-    <div className='todo'>
+    {/* <div className='todo'>
     <Todo/>
-    </div>
+    </div> */}
     {/* todo list assignment***************** end*/}
     {/* <TodoList/> */}
 
+
+      <GiftCard/>
       
     </>
    

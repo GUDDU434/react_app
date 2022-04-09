@@ -1,0 +1,10 @@
+.card{
+    display:flex;
+    width: 400px;
+    border: solid black 1px;
+    padding: 10px;
+}
+.left_side img{
+    width: 200px;
+    height: 200px;
+}
